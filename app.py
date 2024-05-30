@@ -2,9 +2,14 @@ import streamlit as st
  
 import numpy as np
 import pandas as pd
- 
+import os
+
+
+accueil = "Bonjour " + os.environ["USERNAME"] 
+st.write(accueil)
+
 st.markdown("""# Student Information
-## Tte student's name
+## The student's name
 This is text""")
 #pour recup du text
 student = st.text_input('Name_student', 'your name')
