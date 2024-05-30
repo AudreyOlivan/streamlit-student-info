@@ -2,11 +2,11 @@ import streamlit as st
  
 import numpy as np
 import pandas as pd
-import os
+#import os
 
 
-accueil = "Bonjour " + os.environ["USERNAME"] 
-st.write(accueil)
+#accueil = "Bonjour " + os.environ["USERNAME"] 
+#st.write(accueil)
 
 st.markdown("""# Student Information
 ## The student's name
